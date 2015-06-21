@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background:url(../images/haikei.png);
+	background-repeat:repeat;
+}
+
+#header{
+	width:100%;
+	height:49px;
+	background-color:#727171;
+	position:fixed;
+	display: none;
+    z-index: 9999;
+}
+
+#header img {
+	padding-top:9px;
+	padding-bottom:9px;
+}
+
+.left_menu{
+	padding-left:26px;
+	float:left;
+}
+
+.right_menu{
+	padding-right:41px;
+	float:right;
+}
+
+#wrapper{
+	width:1000px;
+	margin: 0 auto;
+}
+
+#top{
+	height:680px;
+}
+
+#title{
+	margin-top:123.6px;
+	margin-left:79.87px;
+}
+
+#top_btn{
+	margin-top:88px;
+	margin-left:79.7px;
+	width:469px;
+	height:361px;
+}
+
+#work_btn{
+	position:relative;
+	top:61px;
+	left:38px;
+}
+
+#contact_brn{
+	position:relative;
+	top:37px;
+	left:34px;
+}
+
+.scale {
+    width: 161px;
+    height: 161px;
+    overflow: hidden;
+}
+.scale img {
+    -moz-transition: -moz-transform 0.2s linear;
+    -webkit-transition: -webkit-transform 0.2s linear;
+    -o-transition: -o-transform 0.2s linear;
+    -ms-transition: -ms-transform 0.2s linear;
+    transition: transform 0.2s linear;
+}
+.scale img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#iwamoto{
+	position:absolute;
+	top:329.3px;
+}
+
+#article{
+	padding-top:140px;
+	margin-left:79.87px;
+}
+
+#profile{
+	padding-top:40px;
+	padding-bottom:60px;
+}
+
+#profile_article{
+	padding-top:40px;
+	padding-left:50px;
+}
+
+#works{
+	padding-top:40px;
+	padding-bottom:60px;
+	height:574px;
+}
+
+#works_article{
+	padding-left:100px;
+}
+
+#works_article img{
+	
+}
+
+a.hover_img{
+	float:left;
+	width:199px;
+	height:199px;
+	margin-top:40px;
+	margin-right:60px;
+	background-color:#fff; /*背景に白を設定*/
+	display:block; /*ブロック化重要！*/
+}
+
+a.hover_img img{
+	transition:all 0.3s ease;
+}
+
+a:hover.hover_img img{
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+#contact{
+	padding-top:40px;
+	font-size:24px;
+	color:#3C3C3C;
+}
+
+#contact a:link { color:#3C3C3C; text-decoration:none }
+#contact a:visited { color:#3C3C3C; text-decoration:none }
+#contact a:hover { color:#979797; text-decoration:none }
+#contact a:active { color:#979797; text-decoration:none }
+
+#contact_article{
+	padding-left:80px;
+	margin-bottom:55px;
+}
+
+.blog img{
+	float:left;
+	padding-top:6px;
+}
+
+.blog p{
+	display:block;
+	position:relative;
+	left:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.inline_contents{
+	width:600px;
+}
+
+.inline_contents p{
+	text-align:center;
+	color:#4A4A4A;
+}
+
+.inline_contents p.title{
+	font-size:20px;
+}
+
+.boxer-content {
+      height: 747px;
+}
