@@ -1,2 +1,2 @@
 # iwamoto_works
-pepoipod.jp
+http://pepoipod.jp/
